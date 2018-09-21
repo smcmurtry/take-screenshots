@@ -7,11 +7,16 @@
     "airtable": "^0.5.6",
     "aws-sdk": "^2.291.0",
     "fs": "^0.0.1-security",
-    "pageres": "^4.5.1"
+    "pageres": "^4.5.1",
+    "next": "^7.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "author": "Stephen McMurtry",
   "license": "MIT"
